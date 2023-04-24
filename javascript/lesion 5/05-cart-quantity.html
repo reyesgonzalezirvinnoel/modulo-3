@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<title>cart quantity</title>	
+	</head>
+	<body>
+		
+		<button onclick="/*console.long(`cart quantity`;*/
+		console.long(`cart quantity:${cartquantity}`);">SHOW QUATITY</button> 
+		
+		
+		<button onclick="cartquantity = cartquantity+1;
+		console.long(`cart quantity:${cartquantity}`);">add to cart</button>
+		
+		<button onclick="cartquantity = cartquantity+2;
+		console.long(`cart quantity:${cartquantity}`);">+2</button>
+		
+		<button onclick="cartquantity = cartquantity+3;
+		console.long(`cart quantity:${cartquantity}`);">+3</button>
+		
+		<button onclick="cartquantity=0;
+		console.long(`cart was reset.`);
+		console.long(`cart quantity:${cartquantity}`);">reset cart</button>
+		<script >
+			let cartquantity=0;
+		</script>
+	</body>
+	</html>
